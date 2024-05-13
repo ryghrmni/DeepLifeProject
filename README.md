@@ -18,3 +18,6 @@ The aim of the project is to download the cell images (preferably from the “20
 [1] Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. [Link](https://doi.org/10.1007/978-3-319-24574-4_28)
 
 [2] Long, F. Microscopy cell nuclei segmentation with enhanced U-Net. BMC Bioinformatics 21, 8 (2020). [Link](https://doi.org/10.1186/s12859-019-3332-1)
+
+
+[link to download the data set](https://www.kaggle.com/competitions/data-science-bowl-2018/data)
