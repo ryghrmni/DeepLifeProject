@@ -14,6 +14,14 @@ A U-Net consists of an encoder - a series of convolution and pooling layers whic
 ## Project Aim
 The aim of the project is to download the cell images (preferably from the “2018 Data Science Bowl” competition) and assess the performance of a U-Net or any other deep model for cell segmentation. Participants are free to choose any model, as long as they are able to explain their rationale, architecture, strengths, and weaknesses.
 
+## Models
+
+### U-Net
+U-Net is a widely used model for biomedical image segmentation due to its ability to recover fine-grained details. Its architecture consists of an encoder-decoder structure with skip connections that link the contracting path to the expanding path. This model is particularly efficient for tasks with limited training data, but it may struggle with very complex or highly variable structures if there isn't sufficient data augmentation.
+
+### Cellpose
+Cellpose is specifically designed for cell segmentation and requires minimal parameter tuning. Unlike U-Net, it utilizes a different architectural approach that focuses on generalizing across various cell types. This model exhibits robust performance across diverse datasets, though it can be computationally intensive.
+
 ## References
 [1] Ronneberger, O., Fischer, P., Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. In: Navab, N., Hornegger, J., Wells, W., Frangi, A. (eds) Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015. MICCAI 2015. Lecture Notes in Computer Science(), vol 9351. Springer, Cham. [Link](https://doi.org/10.1007/978-3-319-24574-4_28)
 
